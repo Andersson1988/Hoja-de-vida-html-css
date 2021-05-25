@@ -1,0 +1,129 @@
+@charset "utf-8";
+body{
+    background:url(../imagenes/textura2.jpg);
+}
+
+nav{
+    height:25px; 
+    background-color: orange;
+    width: 600px;
+}
+
+nav ul{
+       line-height: 23px;
+}
+
+nav ul li{
+          display: inline;
+}
+
+nav ul li a{
+            font-size: 17px; 
+            color:white; 
+            text-decoration: none;
+            background-color: rgb(6, 6, 85);
+            padding: 0px 10px; margin:10px; 
+            border-radius: 5px; 
+            box-shadow: 2px 2px 2px rgb(58, 90, 9);
+}
+
+
+nav ul li a:hover{
+                  color: green; 
+                  background-color: white;
+}
+
+header{
+       border:3px solid orange; 
+       padding: 30px; 
+       width: 690px; 
+       margin:0 auto;
+       height: 200px;
+}
+
+header img{
+           float:left;
+           padding:0px 40px 0px 0px;
+}
+
+#trabajo img{
+    width:260px;
+    float:left;
+    padding:0px 0px 0px 40px;
+}
+
+#trabajo2 img{
+    width:260px;
+    float:right;
+    padding:0px 40px 0px 0px;
+}
+
+h1{
+    color:orange; 
+    text-shadow:2px 2px  green; 
+    font-size: 30px; font-family: 'Times New Roman', Times, serif; 
+    float: center; 
+    width: 45%; 
+    text-align:center;
+    margin-top: 70px;
+    margin-left: 300px;
+}
+
+#secundario{
+    width: 700px; 
+    margin: 0 auto; 
+    background-color: black; 
+    padding:30px;
+}
+
+p{
+  color:greenyellow; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  font-size: 15px; 
+  text-align: justify;
+}
+
+li{color:white; text-size-adjust:15px; font-size: 17px;}
+
+h2{text-decoration: underline;   color: orange; text-shadow: 1px 1px green;}
+
+
+footer{text-align: center; color:white;}
+
+#Hobbie img{
+    width:50%;
+    float:left;
+    padding:20px ;
+    box-sizing: border-box;
+}
+
+#Hobbie2 img{
+    width:50%;
+    float:right;
+    padding:20px ;
+    box-sizing: border-box;
+}
+
+#Hobbie3 img{
+    width:200px;
+    float:left;
+    padding:0px 0px 0px 60px;
+}
+
+.clear{
+    clear:both;
+}
+
+#Cursos{
+    float: left;
+    width: 60%;
+
+}
+
+aside img{
+    width: 35%;
+    float: right;
+    padding-top:250px;
+}
+
+
